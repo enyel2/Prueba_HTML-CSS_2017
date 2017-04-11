@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>Prueba</title>
+	<style>
+		html, body {
+			margin: 0 auto;
+		}
+
+		html {
+			box-sizing: border-box;
+		}
+		
+		div.nav{
+		/* background: skyblue; */
+		position: fixed;
+		top: 0;
+		text-align: center;
+		width: 100%;
+		}
+
+
+		nav > p{
+			background-color: skyblue;
+			display: inline-block;
+		}
+
+		div.abajo{
+			margin-top: 60px;
+		}
+
+		*, *:before, *:after {
+			box-sizing: inherit;
+		}
+
+		.sidebar {
+			background: grey;
+			
+		}
+
+		.main {
+			width: 75%;
+		}
+
+		.menu{
+			list-style-type: none;
+			
+		}
+
+		.left {
+			float: left;
+			padding-left: 10px;
+		}
+
+		.sidebar .menu a:hover {
+			text-decoration: none;
+		}
+		
+		.row:after { 
+			visibility: hidden; 
+			display: inline-block; 
+			height: 0; 
+		}
+
+		[class*="col-"] { 
+			float: left; 
+			border: 2px solid white;
+			background: gray;
+		}
+
+		
+		.col-4 {
+			width: 33.33%;
+		}
+		
+		.col-12 {
+			width: 100%;
+		}
+
+		img{
+			width: 100%;
+		}
+		
+		.col_1{
+			width: 100%;
+			float: left;
+			box-sizing: border-box;
+			padding: 1%; 
+		}	
+		
+		.col_2{
+			width: 25%;
+			float: left;
+			box-sizing: border-box;
+			padding: 1%; 
+		}
+
+	</style>
+</head>
+<body>
+	<div class="nav">
+		<nav>
+			<p>Unete al Taller de Growth Hacking</p>
+		</nav>
+	</div>
+	<div class="abajo">
+		<div class="sidebar left">
+			<ul class="menu">
+				<li><a href="#">Empieza</a></li>
+				<li><a href="#">Nosotros</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</div>
+
+		<div class="main left">
+			<h1>Hola Cansado de lo mismo?? </h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae corporis nulla ipsa, maxime, consequuntur, sequi, voluptate provident dicta architecto velit eius. Quibusdam velit reprehenderit error non libero tenetur itaque fugiat.
+				</p>
+		</div>
+
+		<div class="row">
+			<div class="col-4"> <h2>Nivel 1</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt amet, rem animi magni voluptates hic consectetur facere quaerat officiis molestias inventore magnam nemo, possimus reiciendis iusto! Quidem eveniet, possimus ea.</div>
+			<div class="col-4"> <h2>Nivel 2</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam accusamus aliquam perspiciatis iste tenetur mollitia dolores et! Tempore non, aliquid. Porro perferendis, quam consequatur illum eius fugit iusto error officiis?</div>
+			<div class="col-4"> <h2>Nivel 3</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eveniet nam vero nulla quod dolorum ullam placeat quidem harum perferendis, maxime ipsa, vel nihil odit similique pariatur doloremque libero. Officiis.</div>
+		</div>
+		<div class="col-12"><h2>Casos de Exito</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate nisi, nihil sapiente odit, eos voluptatibus sit minus consequuntur est unde non beatae qui. Reprehenderit tempora vero, esse. Iure, quas nesciunt!</div>
+		<div class="col_1">
+			<h1>Nuestro equipo</h1>
+			<p> 
+				<img src="http://lorempixel.com/1200/400/" alt="">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iure similique illum earum alias asperiores quis sapiente commodi laboriosam delectus, quos nesciunt dignissimos. Expedita qui dolores maxime cumque repellendus soluta.
+
+			</p>
+		</div>
+		<div class="col_2">
+			<h3>Nuestra Direccion Aquí</h3>
+			<p>	
+				<img src="0_1.png" alt="">
+				<a href="https://www.google.cl/maps">Pincha aquí</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
